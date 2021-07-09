@@ -1,0 +1,41 @@
+.section-title {
+  h2.section-heading {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
+  }
+  h2.section-heading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 6px;
+    background: $primary;
+    transform: translate(0, 14px);
+      }
+  h3.section-subheading {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    @include serif-font;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .section-title {
+    h2.section-heading {
+      font-size: 28px;
+    }
+
+    h3.section-subheading {
+      font-size: 18px;
+    }
+  }
+  
+}

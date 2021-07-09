@@ -1,0 +1,936 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery component Unified image prop that it renders image prop when alt property is used 1`] = `
+<React.Fragment>
+  <styled.div
+    margin={-15}
+  >
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt="001"
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image001.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image001.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image001.jpg",
+                  "srcSet": "/thumb/images/image001.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt="002"
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image002.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image002.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image002.jpg",
+                  "srcSet": "/thumb/images/image002.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt="003"
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image003.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image003.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image003.jpg",
+                  "srcSet": "/thumb/images/image003.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt="004"
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image004.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image004.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image004.jpg",
+                  "srcSet": "/thumb/images/image004.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt="005"
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image005.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image005.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image005.jpg",
+                  "srcSet": "/thumb/images/image005.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`Gallery component Unified image prop that it renders image prop when no alt property is used 1`] = `
+<React.Fragment>
+  <styled.div
+    margin={-15}
+  >
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image001.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image001.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image001.jpg",
+                  "srcSet": "/thumb/images/image001.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image002.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image002.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image002.jpg",
+                  "srcSet": "/thumb/images/image002.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image003.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image003.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image003.jpg",
+                  "srcSet": "/thumb/images/image003.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image004.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image004.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image004.jpg",
+                  "srcSet": "/thumb/images/image004.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image005.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image005.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image005.jpg",
+                  "srcSet": "/thumb/images/image005.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`Gallery component Unified image prop that it renders image prop when only in some cases the alt property is used 1`] = `
+<React.Fragment>
+  <styled.div
+    margin={-15}
+  >
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt="001"
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image001.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image001.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image001.jpg",
+                  "srcSet": "/thumb/images/image001.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt="002"
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image002.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image002.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image002.jpg",
+                  "srcSet": "/thumb/images/image002.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image003.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image003.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image003.jpg",
+                  "srcSet": "/thumb/images/image003.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image004.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image004.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image004.jpg",
+                  "srcSet": "/thumb/images/image004.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt="005"
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image005.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image005.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image005.jpg",
+                  "srcSet": "/thumb/images/image005.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
+<React.Fragment>
+  <styled.div
+    margin={-15}
+  >
+    <CustomWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image001.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image001.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image001.jpg",
+                  "srcSet": "/thumb/images/image001.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </CustomWrapper>
+    <CustomWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image002.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image002.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image002.jpg",
+                  "srcSet": "/thumb/images/image002.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </CustomWrapper>
+    <CustomWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image003.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image003.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image003.jpg",
+                  "srcSet": "/thumb/images/image003.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </CustomWrapper>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`Gallery component lightboxOptions props that the Lightbox options are accepted 1`] = `
+<React.Fragment>
+  <styled.div
+    margin={-15}
+  >
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image001.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image001.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image001.jpg",
+                  "srcSet": "/thumb/images/image001.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image002.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image002.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image002.jpg",
+                  "srcSet": "/thumb/images/image002.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image003.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image003.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image003.jpg",
+                  "srcSet": "/thumb/images/image003.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
+<React.Fragment>
+  <styled.div
+    margin={-15}
+  >
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image001.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image001.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image001.jpg",
+                  "srcSet": "/thumb/images/image001.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image002.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image002.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image002.jpg",
+                  "srcSet": "/thumb/images/image002.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image003.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image003.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image003.jpg",
+                  "srcSet": "/thumb/images/image003.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`] = `
+<React.Fragment>
+  <styled.div
+    margin={0}
+  >
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image001.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image001.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image001.jpg",
+                  "srcSet": "/thumb/images/image001.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image002.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image002.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image002.jpg",
+                  "srcSet": "/thumb/images/image002.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+    <ImageColWrapper
+      colWidth={33.333333333333336}
+      gutter="0.25rem"
+      mdColWidth={25}
+      onClick={[Function]}
+    >
+      <L
+        alt=""
+        className=""
+        image={
+          Object {
+            "backgroundColor": "red",
+            "height": 100,
+            "images": Object {
+              "alt": "/thumb/images/image003.jpg",
+              "fallback": Object {
+                "src": "/thumb/images/image003.jpg",
+              },
+              "sources": Array [
+                Object {
+                  "media": "/thumb/images/image003.jpg",
+                  "srcSet": "/thumb/images/image003.jpg",
+                  "type": "JPG",
+                },
+              ],
+            },
+            "layout": "constrained",
+            "width": 100,
+          }
+        }
+      />
+    </ImageColWrapper>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`Gallery component that it renders with empty props 1`] = `
+<React.Fragment>
+  <styled.div
+    margin={-15}
+  />
+</React.Fragment>
+`;

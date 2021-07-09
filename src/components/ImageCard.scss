@@ -1,0 +1,148 @@
+.image-card {
+  height: 491px;
+  .image {
+    height: 491px;
+  }
+  .no-padding {
+    padding: 0;
+  }
+  .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    .intro-lead-in {
+      font-size: 22px;
+      font-style: italic;
+      line-height: 40px;
+      margin-bottom: 20px;
+      @include serif-font;
+    }
+    .intro-heading {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 80px;
+      margin-bottom: 25px;
+      @include heading-font;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .image-card {
+    height: 759px;
+    .image {
+      height: 759px;
+    }
+    .intro-text {
+      padding-top: 300px;
+      padding-bottom: 200px;
+      .intro-lead-in {
+        font-size: 28px;
+        font-style: italic;
+        line-height: 80px;
+        margin-bottom: 25px;
+        @include serif-font;
+      }
+      .intro-heading {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 80px;
+        margin-bottom: 50px;
+        @include heading-font;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width:700px) {
+  .image-card {
+    height: 491px;
+    .image {
+      height: 491px;
+    }
+    .no-padding {
+      padding: 0;
+    }
+    .intro-text {
+      padding-top: 150px;
+      padding-bottom: 100px;
+      .intro-lead-in {
+        font-size: 22px;
+        font-style: italic;
+        line-height: 22px;
+        margin-bottom: 25px;
+        @include serif-font;
+      }
+      .intro-heading {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 25px;
+        @include heading-font;
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    .image-card {
+      height: 759px;
+      .image {
+        height: 759px;
+      }
+      .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+        .intro-lead-in {
+          font-size: 40px;
+          font-style: italic;
+          line-height: 40px;
+          margin-bottom: 25px;
+          @include serif-font;
+        }
+        .intro-heading {
+          font-size: 75px;
+          font-weight: 700;
+          line-height: 75px;
+          margin-bottom: 50px;
+          @include heading-font;
+        }
+      }
+    }
+  }
+}
+
+
+.hero-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h4{
+    font-size: clamp(1rem, 6vw, 1.4rem); 
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 20px;
+    @include serif-font;
+  }
+
+  h3{
+    font-size: clamp(1rem, 8vw, 1.8rem); 
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width:700px){
+  .hero-container{
+    h4{
+      font-size: clamp(1rem, 10vw, 2rem); 
+    }
+
+    h3{
+      font-size: clamp(1rem, 15vw, 3.5rem); 
+    }
+  }
+}

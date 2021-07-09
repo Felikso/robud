@@ -1,0 +1,65 @@
+{
+  "name": "@browniebroke/gatsby-image-gallery",
+  "version": "0.0.0",
+  "description": "Very basic gallery grid based on gatsby-image.",
+  "author": "browniebroke",
+  "license": "MIT",
+  "repository": "browniebroke/gatsby-image-gallery",
+  "homepage": "https://gatsby-image-gallery.netlify.app",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/gatsby-image-gallery.esm.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=12.13"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "watch": "tsdx test --watchAll",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "gatsby-plugin-image": "^1.0",
+    "react": ">=16",
+    "styled-components": ">= 5.0"
+  },
+  "dependencies": {
+    "react-image-lightbox": "^5.1.1",
+    "styled-components": "^5.0"
+  },
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "4.10.3",
+    "@types/react": "17.0.6",
+    "@types/react-dom": "17.0.5",
+    "@types/react-test-renderer": "17.0.1",
+    "@types/styled-components": "5.1.9",
+    "babel-jest": "26.6.3",
+    "gatsby-plugin-image": "1.5.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-test-renderer": "17.0.2",
+    "size-limit": "4.10.3",
+    "tsdx": "0.14.1",
+    "tslib": "2.2.0",
+    "typescript": "4.2.4",
+    "typescript-plugin-css-modules": "3.2.0"
+  },
+  "size-limit": [
+    {
+      "path": "dist/gatsby-image-gallery.cjs.production.min.js",
+      "limit": "60 KB"
+    },
+    {
+      "path": "dist/gatsby-image-gallery.esm.js",
+      "limit": "60 KB"
+    }
+  ]
+}

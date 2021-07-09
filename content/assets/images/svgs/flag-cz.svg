@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="38" viewBox="0 0 53 32">
+<path fill="#e40046" style="fill: var(--color1, #e40046)" d="M27.712 16l-27.712 16h53.053v-16z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M0 0l27.712 16h25.34v-16z"></path>
+<path fill="#003087" style="fill: var(--color3, #003087)" d="M27.712 16l-27.713 16v-32l13.856 8z"></path>
+</svg>

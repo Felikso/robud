@@ -1,0 +1,239 @@
+// bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+html { 
+  font-size: 16px; 
+}
+
+body {
+  overflow-x: hidden !important;
+  @include body-font;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #000000;
+  }
+  ::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #666666;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #333333;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
+
+p {
+  line-height: 1.75;
+}
+
+span {
+  color: $primary;
+  font-weight: bold;
+}
+
+.span-dark {
+  background: $gray-900;
+  padding: 0 10px;
+}
+.text-primary {
+  color: $primary !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  @include heading-font;
+}
+
+.cursor-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+// Highlight color customization
+::-moz-selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+::selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+/* Components */
+// Button Styles
+.btn {
+  @include heading-font;
+  font-weight: 700;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($primary, 7.5%) !important;
+    border-color: darken($primary, 7.5%) !important;
+    color: white;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  }
+}
+
+// Default
+
+.card-section{
+  box-shadow: 3px 5px 10px black;
+}
+
+.box-shadow{
+  box-shadow: 3px 5px 10px black !important;
+}
+
+.image-fluid{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.h-100{
+  height:100%;
+}
+
+.w-100{
+  width:100%;
+}
+
+.wv-100{
+  width:100vw;
+}
+
+
+.footer {
+  border-top: 5px solid $primary;
+  background: $gray-900;
+}
+
+
+// Nav
+
+.brand-svg-icon {
+  svg {
+    height: 30px;
+  }
+}
+
+// Services Section
+
+.bg-lightgray{
+  background-color: $gray-200 !important;
+}
+
+// NavLanguage Styles
+
+/* overwrite active color item */
+
+.dropdown-item.active{
+  background-color: $active !important;
+}
+
+.dropdown-item:focus{
+  background-color: darken($active, 15%) !important;
+}
+
+
+// Dark Section
+
+.dark-section{
+  background: $gray-900;
+  color: white;
+}
+
+.container-fluid{
+  max-width: 100% !important;
+}
+
+/* 1vw = 1% of viewport width
+
+1vh = 1% of viewport height
+
+1vmin = 1vw or 1vh, whichever is smaller
+
+1vmax = 1vw or 1vh, whichever is larger
+
+10px = 0.625rem
+12px = 0.75rem
+14px = 0.875rem
+16px = 1rem (base)
+18px = 1.125rem
+20px = 1.25rem
+24px = 1.5rem
+30px = 1.875rem
+32px = 2rem
+
+ */
+h1 {
+  font-size: clamp(1.5rem, 5.9vmax, 2rem);
+}
+h2 {
+  font-size: clamp(1.3rem, 3.0vmax, 1.875rem);
+}
+h3 {
+  font-size: clamp(1.2rem, 2.8vmax, 1.6rem);
+}
+h4 {
+  font-size: clamp(1.125rem, 2.6vmax, 1.25rem);
+}
+h5 {
+  font-size: clamp(1.125rem, 2.4vmax, 1.2rem);
+}
+p {
+  font-size: clamp(0.75rem, 3vmin, 1.25rem);
+}
+li {
+  font-size: clamp(0.75rem, 2.8vmin, 1.25rem);
+}

@@ -1,0 +1,22 @@
+.map-interface {
+    height: 450px;
+    overflow-y: scroll;
+}
+
+
+.map-box {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.map-item-icon-box {
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+    svg{
+        width: 80%;
+        height: auto;
+    }
+}
