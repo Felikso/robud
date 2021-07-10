@@ -110,5 +110,6 @@ module.exports = {
     `gatsby-plugin-minify`,
     `gatsby-plugin-preact`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-no-javascript`,
   ],
 };
