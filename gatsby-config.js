@@ -62,7 +62,6 @@ module.exports = {
     },
     "@paulkre/gatsby-transformer-svg",
     'gatsby-plugin-svgr',
-    "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-sass",
       options: {
@@ -110,5 +109,7 @@ module.exports = {
     },
     `gatsby-plugin-minify`,
     `gatsby-plugin-preact`,
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-offline`,
   ],
 };
